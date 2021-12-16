@@ -4,7 +4,7 @@ terraform {
       source  = "chanzuckerberg/snowflake"
       version = "0.25.17"
     }
-  }
+  
   }
 
 terraform { 
