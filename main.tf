@@ -21,12 +21,7 @@ provider "snowflake" {
 }
 
 
-resource snowflake_database_grant grant {
-  database_name = "testdb"
-
-  privilege = "USAGE"
-  roles     = ["role1", "role2"]
-  shares    = ["share1", "share2"]
-
-  with_grant_option = false
+resource "snowflake_database" "demo_db" {
+  name    = "DEMO_DB"
+  comment = "Database for Snowflake Terraform demo"
 }
