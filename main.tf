@@ -19,7 +19,7 @@ provider "snowflake" {
   account = var.SNOWFLAKE_ACCOUNT
   region  = var.SNOWFLAKE_REGION
   user    = var.SNOWFLAKE_USER
-  password = var.SNOWFLAKE_PASSWORD
+  password  = var.SNOWFLAKE_PASSWORD
 }
 
 resource "snowflake_database" "TESTDB111" {
