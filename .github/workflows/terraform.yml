@@ -19,9 +19,7 @@ jobs:
           cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
           
      
-      - name: Terraform Format
-        id: fmt
-        run: terraform fmt -check
+
 
      
 
@@ -34,5 +32,5 @@ jobs:
         run: terraform validate -no-color
         
       - name: Terraform Apply
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+       
         run: terraform apply -auto-approve
