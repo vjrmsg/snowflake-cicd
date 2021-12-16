@@ -14,7 +14,7 @@ organization = "testorgst"
       name = "TestWorkspace"
     }
 }
-
+}
 
 
 provider "snowflake" {
