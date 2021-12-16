@@ -5,12 +5,15 @@ terraform {
       version = "0.25.17"
     }
   }
-     organization = "testorgst"
+  }
+
+terraform { 
+organization = "testorgst"
 
     workspaces {
       name = "TestWorkspace"
     }
-  }
+}
 
 
 
