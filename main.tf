@@ -7,7 +7,7 @@ terraform {
   
   }
 
-terraform { 
+backend "remote" { 
 organization = "testorgst"
 
     workspaces {
