@@ -1,8 +1,8 @@
 terraform {
   required_providers {
     snowflake = {
-      source  = "vijaysri/snowflake"
-      version = "1.2.21"
+      source  = "vjayishg/snowflake"
+      version = "1.1.1"
     }
   }
 
