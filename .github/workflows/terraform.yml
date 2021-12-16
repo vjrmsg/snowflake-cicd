@@ -30,4 +30,4 @@ jobs:
 
       - name: Terraform Apply
         id: apply
-        run: terraform apply -auto-approv
+        run: terraform apply -input=false -auto-approv
