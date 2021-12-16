@@ -4,16 +4,14 @@ terraform {
       source  = "chanzuckerberg/snowflake"
       version = "0.25.17"
     }
-  }
-
-  backend "remote" {
-    organization = "testorgst"
+     organization = "testorgst"
 
     workspaces {
       name = "TestWorkspace"
     }
   }
-}
+
+
 
 provider "snowflake" {
 }
