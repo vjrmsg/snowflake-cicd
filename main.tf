@@ -18,8 +18,5 @@ terraform {
 provider "snowflake" {
 }
 
-resource "snowflake_database" "test2" {
-  name    = "testing_2"
-  comment = "test comment 2"
-}
+
 
