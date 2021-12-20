@@ -1,5 +1,3 @@
-# snowflake-cicd
+# snowflake-GitHub CICD Workflow Demo
 
-Working on it
 
-This is first change happening
