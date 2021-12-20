@@ -23,7 +23,7 @@ provider "snowflake" {
 
 resource "snowflake_database" "git_db_demo" {
   
-  name                        = "testing"
+  name                        = "GIT_DB_DEMO"
   comment                     = "test comment"
   data_retention_time_in_days = 3
  
